@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30sp"
+                android:paddingLeft="10sp"
+                android:paddingRight="10sp"
+                android:text="Body mass index (BMI) is the recommended method for diagnosing overweight and obesity.\n\nClick here to see next page!"
+                android:textAlignment="center"
+                android:textColor="@color/colorText1"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv2"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30sp"
+                android:paddingLeft="10sp"
+                android:paddingRight="10sp"
+                android:text="BMI evaluates the relationship between body weight and height.\n\nClick here to see previous page!"
+                android:textAlignment="center"
+                android:textColor="@color/colorText1"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+
+        </FrameLayout>
+
+        <Button
+            android:id="@+id/b1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50sp"
+            android:layout_marginTop="25sp"
+            android:layout_marginRight="50sp"
+            android:background="@drawable/custom_button"
+            android:text="Check your BMI"
+            android:textAllCaps="false"
+            android:textColor="@color/colorText2"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/homeButton1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50sp"
+            android:layout_marginTop="25sp"
+            android:layout_marginRight="50sp"
+            android:background="@drawable/custom_button"
+            android:text="Go back to Home page?"
+            android:layout_marginBottom="25sp"
+            android:textAllCaps="false"
+            android:textColor="@color/colorText2"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</ScrollView>

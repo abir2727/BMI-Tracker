@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChartActivity">
+
+    <TableLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="1">
+
+        <TableRow
+            android:id="@+id/tr1"
+            android:background="@color/colorPrimary"
+            android:layout_marginTop="50sp"
+            android:layout_marginLeft="5sp"
+            android:layout_marginRight="5sp">
+
+            <TextView
+                android:layout_span="5"
+                android:text="Ranges of age groups"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="50sp"
+                android:textAllCaps="true"
+                android:textColor="@color/colorText2"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tr2"
+            android:background="@color/colorPrimaryDark"
+            android:layout_marginLeft="5sp"
+            android:layout_marginRight="5sp"
+            android:layout_marginTop="30sp">
+
+            <TextView
+                android:text="Ages"
+                android:paddingLeft="8sp"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@color/colorText2"
+                android:layout_height="50sp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                />
+
+            <TextView
+                android:text="Excellent"
+                android:layout_height="50sp"
+                android:textAlignment="center"
+                android:paddingLeft="8sp"
+                android:textAllCaps="true"
+                android:textColor="@color/colorText2"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                />
+
+            <TextView
+                android:text="Good"
+                android:paddingLeft="8sp"
+                android:layout_height="50sp"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@color/colorText2"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                />
+
+            <TextView
+                android:text="Fair"
+                android:layout_height="50sp"
+                android:paddingLeft="8sp"
+                android:textAllCaps="true"
+                android:textAlignment="center"
+                android:textColor="@color/colorText2"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                />
+
+            <TextView
+                android:text="Poor"
+                android:layout_height="50sp"
+                android:paddingLeft="8sp"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@color/colorText2"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:paddingRight="12sp"
+                />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tr3"
+            android:background="@color/colorPrimaryDark"
+            android:layout_marginLeft="5sp"
+            android:layout_marginRight="5sp"
+            android:layout_marginTop="20sp">
+
+            <TextView
+                android:text="20-29"
+                android:textAlignment="center"
+                android:layout_height="50sp"
+                android:paddingLeft="8sp"
+                android:textAllCaps="true"
+                android:textColor="@color/colorText2"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                />
+
+            <TextView
+                android:text="15.4"
+                android:textAlignment="center"
+                android:paddingLeft="8sp"
+                android:layout_height="50sp"
+                android:textAllCaps="true"
+                android:textColor="@color/colorText2"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                />
+
+            <TextView
+                android:text="18.9"
+                android:textAlignment="center"
+                android:paddingLeft="8sp"
+                android:textAllCaps="true"
+                android:layout_height="50sp"
+                android:textColor="@color/colorText2"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                />
+
+            <TextView
+                android:text="22.5"
+                android:paddingLeft="8sp"
+                android:textAlignment="center"
+                android:layout_height="50sp"
+                android:textAllCaps="true"
+                android:textColor="@color/colorText2"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                />
+
+            <TextView
+                android:text="26.8"
+                android:layout_height="50sp"
+                android:textAlignment="center"
+                android:paddingRight="12sp"
+                android:paddingLeft="8sp"
+                android:textAllCaps="true"
+                android:textColor="@color/colorText2"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tr4"
+            android:background="@color/colorPrimaryDark"
+            android:layout_marginLeft="5sp"
+            android:layout_marginRight="5sp"
+            android:layout_marginTop="10sp">
+
+            <TextView
+                android:text="30-39"
+                android:paddingLeft="8sp"
+                android:layout_height="50sp"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@color/colorText2"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                />
+
+            <TextView
+                android:text="17.9"
+                android:textAlignment="center"
+                android:layout_height="50sp"
+                android:paddingLeft="8sp"
+                android:textAllCaps="true"
+                android:textColor="@color/colorText2"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                />
+
+            <TextView
+                android:text="21.1"
+                android:paddingLeft="8sp"
+                android:layout_height="50sp"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@color/colorText2"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                />
+
+            <TextView
+                android:text="24.6"
+                android:paddingLeft="8sp"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@color/colorText2"
+                android:layout_height="50sp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                />
+
+            <TextView
+                android:text="28.4"
+                android:paddingLeft="8sp"
+                android:layout_height="50sp"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@color/colorText2"
+                android:paddingRight="12sp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tr5"
+            android:background="@color/colorPrimaryDark"
+            android:layout_marginLeft="5sp"
+            android:layout_marginRight="5sp"
+            android:layout_marginTop="10sp">
+
+            <TextView
+                android:text="40-49"
+                android:paddingLeft="8sp"
+                android:layout_height="50sp"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@color/colorText2"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                />
+
+            <TextView
+                android:text="20.8"
+                android:textAlignment="center"
+                android:paddingLeft="8sp"
+                android:layout_height="50sp"
+                android:textAllCaps="true"
+                android:textColor="@color/colorText2"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                />
+
+            <TextView
+                android:text="23.7"
+                android:paddingLeft="8sp"
+                android:layout_height="50sp"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@color/colorText2"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                />
+
+            <TextView
+                android:text="27.1"
+                android:paddingLeft="8sp"
+                android:textAlignment="center"
+                android:layout_height="50sp"
+                android:textAllCaps="true"
+                android:textColor="@color/colorText2"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                />
+
+            <TextView
+                android:text="30.4"
+                android:paddingLeft="8sp"
+                android:layout_height="50sp"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@color/colorText2"
+                android:paddingRight="12sp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tr6"
+            android:background="@color/colorPrimaryDark"
+            android:layout_marginLeft="5sp"
+            android:layout_marginRight="5sp"
+            android:layout_marginTop="10sp">
+
+            <TextView
+                android:text="50-59"
+                android:paddingLeft="8sp"
+                android:layout_height="50sp"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@color/colorText2"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                />
+
+            <TextView
+                android:text="23.5"
+                android:textAlignment="center"
+                android:layout_height="50sp"
+                android:paddingLeft="8sp"
+                android:textAllCaps="true"
+                android:textColor="@color/colorText2"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                />
+
+            <TextView
+                android:text="26.6"
+                android:paddingLeft="8sp"
+                android:textAlignment="center"
+                android:layout_height="50sp"
+                android:textAllCaps="true"
+                android:textColor="@color/colorText2"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                />
+
+            <TextView
+                android:text="29.8"
+                android:paddingLeft="8sp"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@color/colorText2"
+                android:layout_height="50sp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                />
+
+            <TextView
+                android:text="32.9"
+                android:paddingLeft="8sp"
+                android:textAlignment="center"
+                android:layout_height="50sp"
+                android:textAllCaps="true"
+                android:textColor="@color/colorText2"
+                android:paddingRight="12sp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tr7"
+            android:background="@color/colorPrimaryDark"
+            android:layout_marginLeft="5sp"
+            android:layout_marginRight="5sp"
+            android:layout_marginTop="10sp">
+
+            <TextView
+                android:text="60+"
+                android:paddingLeft="8sp"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@color/colorText2"
+                android:layout_height="50sp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                />
+
+            <TextView
+                android:text="24"
+                android:textAlignment="center"
+                android:layout_height="50sp"
+                android:paddingLeft="8sp"
+                android:textAllCaps="true"
+                android:textColor="@color/colorText2"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                />
+
+            <TextView
+                android:text="27.3"
+                android:paddingLeft="8sp"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@color/colorText2"
+                android:layout_height="50sp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                />
+
+            <TextView
+                android:text="30.6"
+                android:paddingLeft="8sp"
+                android:textAlignment="center"
+                android:layout_height="50sp"
+                android:textAllCaps="true"
+                android:textColor="@color/colorText2"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                />
+
+            <TextView
+                android:text="33.9"
+                android:paddingLeft="8sp"
+                android:textAlignment="center"
+                android:paddingRight="12sp"
+                android:layout_height="50sp"
+                android:textAllCaps="true"
+                android:textColor="@color/colorText2"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                />
+
+        </TableRow>
+
+        <Button
+            android:id="@+id/b2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_button"
+            android:layout_marginRight="50sp"
+            android:layout_marginLeft="50sp"
+            android:textColor="@color/colorText2"
+            android:layout_marginTop="35sp"
+            android:textAllCaps="false"
+            android:text="Check your BMI?"
+            android:layout_marginBottom="25sp"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            />
+
+    </TableLayout>
+
+</ScrollView>
